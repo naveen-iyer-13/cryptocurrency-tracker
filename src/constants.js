@@ -11,13 +11,13 @@ const columns = [{
     key: 'name',
    },
    {
-    title: 'Market Cap USD',
+    title: 'Market Cap USD ($)',
     dataIndex: 'market_cap_usd',
     rowKey: 3,
     key: 'market_cap_usd',
    },
    {
-    title: 'Price',
+    title: 'Price ($)',
     dataIndex: 'price_usd',
     rowKey: 4,
     key: 'price_usd',

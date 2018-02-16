@@ -5,7 +5,9 @@ A dashboard with the live list of cryptocurrencies which will update every 5 min
 ### Installing
 
 ```
-- Git clone git@github.com:naveen-iyer-13/cryptocurrency-tracker.git
+- git clone git@github.com:naveen-iyer-13/cryptocurrency-tracker.git
+```
+```
 - npm install
 ```
 

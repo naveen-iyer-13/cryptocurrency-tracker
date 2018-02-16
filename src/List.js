@@ -18,7 +18,7 @@ class List extends Component{
   }
 
   componentDidMount() {
-    setInterval(() => this.props.getData(), 20000)
+    setInterval(() => this.props.getData(), 300000)
   }
 
   closeModal() {

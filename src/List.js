@@ -18,7 +18,7 @@ class List extends Component{
   }
 
   componentDidMount() {
-    setInterval(() => this.props.dispatch(getData()), 20000)
+    setInterval(() => this.props.getData(), 20000)
   }
 
   closeModal() {
@@ -30,7 +30,7 @@ class List extends Component{
   }
 
   render(){
-    // console.log(this.props.details);
+    console.log(this.props);
     return(
       <div style={{padding: '100px'}} className="container">
         <Table
@@ -50,4 +50,14 @@ class List extends Component{
   }
 }
 
-export default connect(state => state)(List);
+const mapStateToProps = (state) => {
+  return(
+    {details: state.details}
+  )
+}
+
+const mapDispatchToProps = {
+  getData
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(List);

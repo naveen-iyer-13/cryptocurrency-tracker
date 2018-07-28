@@ -4,7 +4,7 @@ import Modal from 'antd/lib/modal'
 const DetailsModal = props => {
 
   return (
-    <Modal visible={props.isOpen} onCancel={() => props.closeModal()} title="Selected Cryptocurrency Details" footer={null}>
+    <Modal visible={props.isOpen} onCancel={() => props.closeModal()} title="Cryptocurrency Details" footer={null}>
       <div style={{textAlign: 'center', marginBottom: 20, fontWeight: 700}}>
         {props.selectedRow.name} ({props.selectedRow.symbol})  #{props.selectedRow.rank}
       </div>

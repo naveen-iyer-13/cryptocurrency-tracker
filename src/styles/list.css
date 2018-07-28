@@ -1,0 +1,77 @@
+.ReactModalPortal textarea {
+  resize: none;
+  width: 198px !important;
+  height: 100px !important; }
+
+.ReactModalPortal input {
+  width: 200px; }
+
+.ReactModalPortal .input-container {
+  display: flex;
+  padding-bottom: 20px; }
+  .ReactModalPortal .input-container span {
+    width: 100px; }
+
+.ReactModalPortal .ReactModal__Content {
+  width: 350px;
+  position: initial;
+  top: 41px;
+  /* left: 298px; */
+  /* right: 40px; */
+  bottom: 40px;
+  border: 1px solid #cccccc;
+  background: white;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  justify-content: center;
+  margin: 40px auto; }
+  .ReactModalPortal .ReactModal__Content .footer-container {
+    display: flex;
+    justify-content: center; }
+    .ReactModalPortal .ReactModal__Content .footer-container button {
+      margin: 5px;
+      cursor: pointer; }
+
+.container .heading-container input {
+  margin: 20px 5px 20px 20px; }
+
+.container .event-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center; }
+  .container .event-list-container .event-card {
+    position: relative;
+    width: 250px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+    height: 300px;
+    -webkit-box-shadow: 3px 3px 14px 0px rgba(50, 50, 50, 0.76);
+    -moz-box-shadow: 3px 3px 14px 0px rgba(50, 50, 50, 0.76);
+    box-shadow: 3px 3px 14px 0px rgba(50, 50, 50, 0.76); }
+    .container .event-list-container .event-card button {
+      background-color: #000000;
+      color: #FFFFFF;
+      border: 1px solid #000000;
+      height: 30px;
+      width: 100%;
+      cursor: pointer;
+      position: absolute;
+      bottom: 0; }
+    .container .event-list-container .event-card .event-name {
+      font-size: 18px;
+      text-align: center; }
+    .container .event-list-container .event-card .event-description {
+      font-size: 15px;
+      min-height: 100px; }
+    .container .event-list-container .event-card .event-price {
+      font-size: 15px; }
+      .container .event-list-container .event-card .event-price span {
+        font-size: 12px; }
+    .container .event-list-container .event-card .event-venue {
+      font-size: 16px;
+      padding: 5px; }
+    .container .event-list-container .event-card div {
+      padding: 15px 5px; }
